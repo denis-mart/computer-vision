@@ -1,5 +1,5 @@
 # Ignored files in Git
 src/.ipynb_checkpoints
 others/tensordeprueba copy.pt
-input/petfinder-pawpularity-score/test
-input/petfinder-pawpularity-score/train
+input/petfinder-pawpularity-score/test/
+input/petfinder-pawpularity-score/train/
