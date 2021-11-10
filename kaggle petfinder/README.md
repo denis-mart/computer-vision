@@ -11,11 +11,18 @@ Inputs: Image and Extra dummy features
 Target: Pawpularity Score
 
 # Cosas pendientes:
-- plt.imread(img_path) no pasa a tensor, lo hace el transform. Es una buena práctica?
-- num_workers & pin_memory: usar estas cosas
-- Más data augmentation
 - TTA?
 - BS algo más grande or gradient accum?
 - LR cosine?
 - Efficient mayor
 - Mixed Precision (apex) (ya integrado de forma nativa en Pytorch)
+- Necesarias tantas transformaciones?
+
+
+las transformaciones generan un cuello de botella
+le he puesto las de validacion y la net freezed y va a tope
+Hay que probar una solución intermedia a ver que pasa
+
+y el numworkes y pinmemory hay que ver si vale la pena que pinta mucho verbose caca
+
+
