@@ -14,7 +14,7 @@ Target: Pawpularity Score
 - TTA?
 - BS algo más grande or gradient accum?
 - LR cosine?
-- Efficient mayor
+- Efficient mayor (la b1 acepta resolucion de 240x240 como dice la web de Keras?)
 - Mixed Precision (apex) (ya integrado de forma nativa en Pytorch)
 - Necesarias tantas transformaciones?
 
