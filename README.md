@@ -11,7 +11,7 @@ Summary of some of my personal work
 - Framework: Pytorch on GPU
 - Experiments: 
     * Xgboost (EfficientNet b0 feature extraction + metadata)
-    * EfficientNet b0
+    * ConvNet (EfficientNet b0)
     * MLP based on Backbone (EfficientNet b0 + MLP Metadata)
     * MLP based on Backbone (EfficientNet b1 + MLP Metadata)
 - Best model: MLP based on Backbone (EfficientNet b2 + MLP Metadata)
