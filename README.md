@@ -19,7 +19,7 @@ Summary of some of my personal work
 
 ## 2. Time Series Prediction
 
-# Time Serie "1"
+### Time Serie "1"
 
 - **Machine Learning**
 - Regression
