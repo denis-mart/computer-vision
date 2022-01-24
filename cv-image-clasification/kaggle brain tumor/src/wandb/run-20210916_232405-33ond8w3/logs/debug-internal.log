@@ -1,0 +1,102 @@
+2021-09-16 23:24:09,208 INFO    MainThread:7367 [internal.py:wandb_internal():86] W&B internal server running at pid: 7367, started at: 2021-09-16 23:24:09.208421
+2021-09-16 23:24:09,209 INFO    WriterThread:7367 [datastore.py:open_for_write():77] open: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/run-33ond8w3.wandb
+2021-09-16 23:24:09,210 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: check_version
+2021-09-16 23:24:09,211 DEBUG   SenderThread:7367 [sender.py:send():185] send: header
+2021-09-16 23:24:09,211 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: check_version
+2021-09-16 23:24:09,288 DEBUG   SenderThread:7367 [sender.py:send():185] send: run
+2021-09-16 23:24:09,519 INFO    SenderThread:7367 [dir_watcher.py:__init__():169] watching files in: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files
+2021-09-16 23:24:09,519 INFO    SenderThread:7367 [sender.py:_start_run_threads():746] run started: 33ond8w3 with start time 1631827448
+2021-09-16 23:24:09,519 DEBUG   SenderThread:7367 [sender.py:send():185] send: summary
+2021-09-16 23:24:09,520 INFO    SenderThread:7367 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-09-16 23:24:09,520 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: run_start
+2021-09-16 23:24:09,522 DEBUG   HandlerThread:7367 [meta.py:__init__():40] meta init
+2021-09-16 23:24:09,523 DEBUG   HandlerThread:7367 [meta.py:__init__():54] meta init done
+2021-09-16 23:24:09,523 DEBUG   HandlerThread:7367 [meta.py:probe():211] probe
+2021-09-16 23:24:09,528 DEBUG   HandlerThread:7367 [meta.py:_save_pip():58] save pip
+2021-09-16 23:24:09,529 DEBUG   HandlerThread:7367 [meta.py:_save_pip():72] save pip done
+2021-09-16 23:24:09,529 DEBUG   HandlerThread:7367 [meta.py:_save_conda():79] save conda
+2021-09-16 23:24:10,521 INFO    Thread-8  :7367 [dir_watcher.py:_on_file_created():217] file/dir created: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/requirements.txt
+2021-09-16 23:24:10,522 INFO    Thread-8  :7367 [dir_watcher.py:_on_file_created():217] file/dir created: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/wandb-summary.json
+2021-09-16 23:24:10,522 INFO    Thread-8  :7367 [dir_watcher.py:_on_file_created():217] file/dir created: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/conda-environment.yaml
+2021-09-16 23:24:11,452 DEBUG   HandlerThread:7367 [meta.py:_save_conda():87] save conda done
+2021-09-16 23:24:11,452 DEBUG   HandlerThread:7367 [meta.py:probe():249] probe done
+2021-09-16 23:24:11,454 DEBUG   SenderThread:7367 [sender.py:send():185] send: files
+2021-09-16 23:24:11,454 INFO    SenderThread:7367 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2021-09-16 23:24:11,459 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:24:11,459 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:24:11,527 INFO    Thread-8  :7367 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/conda-environment.yaml
+2021-09-16 23:24:11,527 INFO    Thread-8  :7367 [dir_watcher.py:_on_file_created():217] file/dir created: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/output.log
+2021-09-16 23:24:11,527 INFO    Thread-8  :7367 [dir_watcher.py:_on_file_created():217] file/dir created: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/wandb-metadata.json
+2021-09-16 23:24:12,080 INFO    Thread-11 :7367 [upload_job.py:push():137] Uploaded file /tmp/tmphjd8gbdgwandb/1tfdj5bh-wandb-metadata.json
+2021-09-16 23:24:13,526 INFO    Thread-8  :7367 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/output.log
+2021-09-16 23:24:26,652 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:24:26,652 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:24:37,767 DEBUG   SenderThread:7367 [sender.py:send():185] send: stats
+2021-09-16 23:24:41,847 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:24:41,848 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:24:57,076 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:24:57,076 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:25:08,032 DEBUG   SenderThread:7367 [sender.py:send():185] send: stats
+2021-09-16 23:25:12,277 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:25:12,278 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:25:27,472 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:25:27,473 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:25:38,307 DEBUG   SenderThread:7367 [sender.py:send():185] send: stats
+2021-09-16 23:25:42,686 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:25:42,686 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:25:57,871 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:25:57,871 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:26:08,576 DEBUG   SenderThread:7367 [sender.py:send():185] send: stats
+2021-09-16 23:26:13,069 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:26:13,069 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:26:28,257 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:26:28,258 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:26:38,835 DEBUG   SenderThread:7367 [sender.py:send():185] send: stats
+2021-09-16 23:26:43,453 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:26:43,454 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:26:58,649 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:26:58,649 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:27:09,094 DEBUG   SenderThread:7367 [sender.py:send():185] send: stats
+2021-09-16 23:27:13,843 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:27:13,844 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:27:22,624 INFO    Thread-8  :7367 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/output.log
+2021-09-16 23:27:29,029 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:27:29,029 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:27:36,629 INFO    Thread-8  :7367 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/output.log
+2021-09-16 23:27:39,321 DEBUG   SenderThread:7367 [sender.py:send():185] send: stats
+2021-09-16 23:27:44,237 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:27:44,238 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:27:59,433 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:27:59,434 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:28:09,576 DEBUG   SenderThread:7367 [sender.py:send():185] send: stats
+2021-09-16 23:28:14,656 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:28:14,656 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:28:29,885 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:28:29,886 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:28:39,841 DEBUG   SenderThread:7367 [sender.py:send():185] send: stats
+2021-09-16 23:28:45,084 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:28:45,085 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:29:00,281 DEBUG   HandlerThread:7367 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-16 23:29:00,281 DEBUG   SenderThread:7367 [sender.py:send_request():199] send_request: stop_status
+2021-09-16 23:29:10,100 DEBUG   SenderThread:7367 [sender.py:send():185] send: stats
+2021-09-16 23:29:14,539 WARNING MainThread:7367 [internal.py:is_dead():364] Internal process exiting, parent pid 6892 disappeared
+2021-09-16 23:29:14,539 ERROR   MainThread:7367 [internal.py:wandb_internal():141] Internal process shutdown.
+2021-09-16 23:29:15,101 INFO    WriterThread:7367 [datastore.py:close():281] close: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/run-33ond8w3.wandb
+2021-09-16 23:29:15,483 INFO    SenderThread:7367 [sender.py:finish():985] shutting down sender
+2021-09-16 23:29:15,483 INFO    SenderThread:7367 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-09-16 23:29:15,487 INFO    HandlerThread:7367 [handler.py:finish():683] shutting down handler
+2021-09-16 23:29:15,649 INFO    SenderThread:7367 [dir_watcher.py:finish():313] scan: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files
+2021-09-16 23:29:15,650 INFO    SenderThread:7367 [dir_watcher.py:finish():327] scan save: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/wandb-summary.json wandb-summary.json
+2021-09-16 23:29:15,650 INFO    SenderThread:7367 [dir_watcher.py:finish():327] scan save: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/output.log output.log
+2021-09-16 23:29:15,660 INFO    SenderThread:7367 [dir_watcher.py:finish():327] scan save: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/wandb-metadata.json wandb-metadata.json
+2021-09-16 23:29:15,660 INFO    SenderThread:7367 [dir_watcher.py:finish():327] scan save: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/requirements.txt requirements.txt
+2021-09-16 23:29:15,660 INFO    SenderThread:7367 [dir_watcher.py:finish():327] scan save: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/conda-environment.yaml conda-environment.yaml
+2021-09-16 23:29:15,663 INFO    SenderThread:7367 [dir_watcher.py:finish():327] scan save: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/config.yaml config.yaml
+2021-09-16 23:29:15,669 INFO    SenderThread:7367 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-16 23:29:15,669 INFO    SenderThread:7367 [file_pusher.py:join():182] waiting for file pusher
+2021-09-16 23:29:16,277 INFO    Thread-16 :7367 [upload_job.py:push():137] Uploaded file /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/config.yaml
+2021-09-16 23:29:16,306 INFO    Thread-14 :7367 [upload_job.py:push():137] Uploaded file /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/requirements.txt
+2021-09-16 23:29:16,309 INFO    Thread-12 :7367 [upload_job.py:push():137] Uploaded file /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/wandb-summary.json
+2021-09-16 23:29:16,312 INFO    Thread-15 :7367 [upload_job.py:push():137] Uploaded file /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/conda-environment.yaml
+2021-09-16 23:29:16,317 INFO    Thread-13 :7367 [upload_job.py:push():137] Uploaded file /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210916_232405-33ond8w3/files/output.log
+2021-09-16 23:29:16,835 INFO    MainThread:7367 [internal.py:handle_exit():76] Internal process exited

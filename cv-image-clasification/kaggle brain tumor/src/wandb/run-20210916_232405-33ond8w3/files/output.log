@@ -1,0 +1,7 @@
+
+Using GPU: NVIDIA GeForce RTX 3060
+Downloading: "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/resnext50_32x4d_ra-d733960d.pth" to /home/denis/.cache/torch/hub/checkpoints/resnext50_32x4d_ra-d733960d.pth
+Using GPU: NVIDIA GeForce RTX 3060
+Size of Training Set: 524, Validation Set: 59
+  0%|          | 0/131 [00:00<?, ?it/s]
+Using Backbone: resnext50_32x4d

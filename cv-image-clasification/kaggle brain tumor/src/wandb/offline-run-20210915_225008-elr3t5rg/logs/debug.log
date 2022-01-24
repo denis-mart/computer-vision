@@ -1,0 +1,41 @@
+2021-09-15 22:50:08,028 INFO    MainThread:3341 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-15 22:50:08,028 INFO    MainThread:3341 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-15 22:50:08,028 INFO    MainThread:3341 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-15 22:50:08,028 INFO    MainThread:3341 [wandb_setup.py:_flush():69] setting login settings: {'mode': 'offline'}
+2021-09-15 22:50:08,028 INFO    MainThread:3341 [wandb_init.py:_log_setup():342] Logging user logs to /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/offline-run-20210915_225008-elr3t5rg/logs/debug.log
+2021-09-15 22:50:08,028 INFO    MainThread:3341 [wandb_init.py:_log_setup():343] Logging internal logs to /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/offline-run-20210915_225008-elr3t5rg/logs/debug-internal.log
+2021-09-15 22:50:08,028 INFO    MainThread:3341 [wandb_init.py:_jupyter_setup():294] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f6c4c3b0a90>
+2021-09-15 22:50:08,029 INFO    MainThread:3341 [wandb_init.py:init():375] calling init triggers
+2021-09-15 22:50:08,029 INFO    MainThread:3341 [wandb_init.py:init():380] wandb.init called with sweep_config: {}
+config: {}
+2021-09-15 22:50:08,029 INFO    MainThread:3341 [wandb_init.py:init():424] starting backend
+2021-09-15 22:50:08,029 INFO    MainThread:3341 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-09-15 22:50:08,038 INFO    MainThread:3341 [backend.py:ensure_launched():135] starting backend process...
+2021-09-15 22:50:08,046 INFO    MainThread:3341 [backend.py:ensure_launched():139] started backend process with pid: 3444
+2021-09-15 22:50:08,047 INFO    MainThread:3341 [wandb_init.py:init():429] backend started and connected
+2021-09-15 22:50:08,095 INFO    MainThread:3341 [wandb_run.py:_label_probe_notebook():815] probe notebook
+2021-09-15 22:50:08,095 INFO    MainThread:3341 [wandb_run.py:_label_probe_notebook():822] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-09-15 22:50:08,095 INFO    MainThread:3341 [wandb_init.py:init():477] updated telemetry
+2021-09-15 22:50:08,096 INFO    MainThread:3341 [wandb_init.py:init():540] starting run threads in backend
+2021-09-15 22:50:10,514 INFO    MainThread:3341 [wandb_run.py:_console_start():1601] atexit reg
+2021-09-15 22:50:10,514 INFO    MainThread:3341 [wandb_run.py:_redirect():1475] redirect: SettingsConsole.WRAP
+2021-09-15 22:50:10,515 INFO    MainThread:3341 [wandb_run.py:_redirect():1512] Wrapping output streams.
+2021-09-15 22:50:10,515 INFO    MainThread:3341 [wandb_run.py:_redirect():1536] Redirects installed.
+2021-09-15 22:50:10,515 INFO    MainThread:3341 [wandb_init.py:init():565] run started, returning control to user process
+2021-09-15 22:50:10,524 INFO    MainThread:3341 [wandb_init.py:_pause_backend():256] pausing backend
+2021-09-15 22:50:10,524 INFO    MainThread:3341 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-15 22:52:01,153 INFO    MainThread:3341 [wandb_init.py:_resume_backend():265] resuming backend
+2021-09-15 22:52:01,157 INFO    MainThread:3341 [wandb_init.py:_pause_backend():256] pausing backend
+2021-09-15 22:52:01,157 INFO    MainThread:3341 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-15 22:52:11,165 INFO    MainThread:3341 [wandb_init.py:_resume_backend():265] resuming backend
+2021-09-15 22:52:11,176 INFO    MainThread:3341 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-15 22:52:11,176 INFO    MainThread:3341 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-15 22:52:11,176 INFO    MainThread:3341 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-15 22:52:11,176 INFO    MainThread:3341 [wandb_setup.py:_flush():69] setting login settings: {'mode': 'offline'}
+2021-09-15 22:52:11,176 INFO    MainThread:3341 [wandb_init.py:_log_setup():342] Logging user logs to /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/offline-run-20210915_225211-2cruc30m/logs/debug.log
+2021-09-15 22:52:11,176 INFO    MainThread:3341 [wandb_init.py:_log_setup():343] Logging internal logs to /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/offline-run-20210915_225211-2cruc30m/logs/debug-internal.log
+2021-09-15 22:52:11,177 INFO    MainThread:3341 [wandb_init.py:init():375] calling init triggers
+2021-09-15 22:52:11,177 INFO    MainThread:3341 [wandb_init.py:init():380] wandb.init called with sweep_config: {}
+config: {}
+2021-09-15 22:52:11,177 INFO    MainThread:3341 [wandb_init.py:init():395] re-initializing run, found existing run on stack: elr3t5rg
+2021-09-15 22:52:11,178 INFO    MainThread:3341 [wandb_run.py:finish():1271] finishing run denisquant/kaggle_brain_tumor/elr3t5rg

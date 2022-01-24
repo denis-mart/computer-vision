@@ -1,0 +1,6 @@
+Using GPU: NVIDIA GeForce RTX 3060
+Size of Training Set: 524, Validation Set: 59
+  0%|          | 0/131 [00:00<?, ?it/s]
+Using Backbone: resnext50_32x4d
+---------------- EPOCH: 1 ----------------
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

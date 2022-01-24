@@ -1,0 +1,74 @@
+wandb_version: 1
+
+DR_RATE:
+  desc: null
+  value: 0.35
+EPOCHS:
+  desc: null
+  value: 5
+FEATURE_EXTRACTOR:
+  desc: null
+  value: resnext50_32x4d
+IMG_SIZE:
+  desc: null
+  value:
+  - 224
+  - 224
+LR:
+  desc: null
+  value: 0.0002
+MAX_FRAMES:
+  desc: null
+  value: 12
+NUM_CLASSES:
+  desc: null
+  value: 1
+NUM_WORKERS:
+  desc: null
+  value: 4
+RNN_HIDDEN_SIZE:
+  desc: null
+  value: 100
+RNN_LAYERS:
+  desc: null
+  value: 1
+TRAIN_BS:
+  desc: null
+  value: 4
+VALID_BS:
+  desc: null
+  value: 4
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.2
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: true
+    python_version: 3.9.6
+    start_time: 1631890968
+    t:
+      1:
+      - 1
+      - 5
+      2:
+      - 1
+      - 5
+      3:
+      - 2
+      - 16
+      4: 3.9.6
+      5: 0.12.2
+      8:
+      - 1
+      - 2
+      - 5
+_wandb_kernel:
+  desc: null
+  value: tanaym
+competition:
+  desc: null
+  value: rsna_miccai
+infra:
+  desc: null
+  value: Kaggle

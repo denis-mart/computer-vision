@@ -1,0 +1,3 @@
+# Ignored files in Git
+src/.ipynb_checkpoints
+data/

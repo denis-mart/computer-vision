@@ -1,0 +1,11 @@
+2021-09-15 22:52:13,623 INFO    MainThread:3467 [internal.py:wandb_internal():86] W&B internal server running at pid: 3467, started at: 2021-09-15 22:52:13.623298
+2021-09-15 22:52:13,624 INFO    WriterThread:3467 [datastore.py:open_for_write():77] open: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/offline-run-20210915_225211-2cruc30m/run-2cruc30m.wandb
+2021-09-15 22:52:13,625 DEBUG   HandlerThread:3467 [handler.py:handle_request():126] handle_request: run_start
+2021-09-15 22:52:13,627 DEBUG   HandlerThread:3467 [meta.py:__init__():40] meta init
+2021-09-15 22:52:13,627 DEBUG   HandlerThread:3467 [meta.py:__init__():54] meta init done
+2021-09-15 22:52:13,627 DEBUG   HandlerThread:3467 [meta.py:probe():211] probe
+2021-09-15 22:52:13,633 DEBUG   HandlerThread:3467 [meta.py:_save_pip():58] save pip
+2021-09-15 22:52:13,634 DEBUG   HandlerThread:3467 [meta.py:_save_pip():72] save pip done
+2021-09-15 22:52:13,634 DEBUG   HandlerThread:3467 [meta.py:_save_conda():79] save conda
+2021-09-15 22:52:15,528 DEBUG   HandlerThread:3467 [meta.py:_save_conda():87] save conda done
+2021-09-15 22:52:15,528 DEBUG   HandlerThread:3467 [meta.py:probe():249] probe done

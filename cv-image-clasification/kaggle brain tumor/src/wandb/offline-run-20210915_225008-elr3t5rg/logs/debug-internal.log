@@ -1,0 +1,85 @@
+2021-09-15 22:50:08,445 INFO    MainThread:3444 [internal.py:wandb_internal():86] W&B internal server running at pid: 3444, started at: 2021-09-15 22:50:08.445589
+2021-09-15 22:50:08,447 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: run_start
+2021-09-15 22:50:08,447 INFO    WriterThread:3444 [datastore.py:open_for_write():77] open: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/offline-run-20210915_225008-elr3t5rg/run-elr3t5rg.wandb
+2021-09-15 22:50:08,449 DEBUG   HandlerThread:3444 [meta.py:__init__():40] meta init
+2021-09-15 22:50:08,449 DEBUG   HandlerThread:3444 [meta.py:__init__():54] meta init done
+2021-09-15 22:50:08,449 DEBUG   HandlerThread:3444 [meta.py:probe():211] probe
+2021-09-15 22:50:08,455 DEBUG   HandlerThread:3444 [meta.py:_save_pip():58] save pip
+2021-09-15 22:50:08,455 DEBUG   HandlerThread:3444 [meta.py:_save_pip():72] save pip done
+2021-09-15 22:50:08,455 DEBUG   HandlerThread:3444 [meta.py:_save_conda():79] save conda
+2021-09-15 22:50:10,511 DEBUG   HandlerThread:3444 [meta.py:_save_conda():87] save conda done
+2021-09-15 22:50:10,511 DEBUG   HandlerThread:3444 [meta.py:probe():249] probe done
+2021-09-15 22:50:10,524 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: pause
+2021-09-15 22:50:10,524 INFO    HandlerThread:3444 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-15 22:52:01,154 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: resume
+2021-09-15 22:52:01,154 INFO    HandlerThread:3444 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-15 22:52:01,158 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: pause
+2021-09-15 22:52:01,158 INFO    HandlerThread:3444 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-15 22:52:11,175 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: resume
+2021-09-15 22:52:11,175 INFO    HandlerThread:3444 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-15 22:52:11,665 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-15 22:52:11,665 DEBUG   SenderThread:3444 [sender.py:send():185] send: exit
+2021-09-15 22:52:11,665 INFO    SenderThread:3444 [sender.py:send_exit():294] handling exit code: 0
+2021-09-15 22:52:11,665 INFO    SenderThread:3444 [sender.py:send_exit():296] handling runtime: 2
+2021-09-15 22:52:11,665 INFO    SenderThread:3444 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-09-15 22:52:11,665 INFO    SenderThread:3444 [sender.py:send_exit():306] send defer
+2021-09-15 22:52:11,666 DEBUG   SenderThread:3444 [sender.py:send_request():199] send_request: poll_exit
+2021-09-15 22:52:11,666 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: defer
+2021-09-15 22:52:11,666 INFO    HandlerThread:3444 [handler.py:handle_request_defer():143] handle defer: 0
+2021-09-15 22:52:11,666 DEBUG   SenderThread:3444 [sender.py:send_request():199] send_request: defer
+2021-09-15 22:52:11,666 INFO    SenderThread:3444 [sender.py:send_request_defer():315] handle sender defer: 0
+2021-09-15 22:52:11,666 INFO    SenderThread:3444 [sender.py:transition_state():319] send defer: 1
+2021-09-15 22:52:11,666 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: defer
+2021-09-15 22:52:11,666 INFO    HandlerThread:3444 [handler.py:handle_request_defer():143] handle defer: 1
+2021-09-15 22:52:11,690 DEBUG   SenderThread:3444 [sender.py:send_request():199] send_request: defer
+2021-09-15 22:52:11,690 INFO    SenderThread:3444 [sender.py:send_request_defer():315] handle sender defer: 1
+2021-09-15 22:52:11,690 INFO    SenderThread:3444 [sender.py:transition_state():319] send defer: 2
+2021-09-15 22:52:11,690 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: defer
+2021-09-15 22:52:11,691 INFO    HandlerThread:3444 [handler.py:handle_request_defer():143] handle defer: 2
+2021-09-15 22:52:11,691 DEBUG   SenderThread:3444 [sender.py:send_request():199] send_request: defer
+2021-09-15 22:52:11,691 INFO    SenderThread:3444 [sender.py:send_request_defer():315] handle sender defer: 2
+2021-09-15 22:52:11,691 INFO    SenderThread:3444 [sender.py:transition_state():319] send defer: 3
+2021-09-15 22:52:11,691 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: defer
+2021-09-15 22:52:11,691 INFO    HandlerThread:3444 [handler.py:handle_request_defer():143] handle defer: 3
+2021-09-15 22:52:11,691 DEBUG   SenderThread:3444 [sender.py:send_request():199] send_request: defer
+2021-09-15 22:52:11,691 INFO    SenderThread:3444 [sender.py:send_request_defer():315] handle sender defer: 3
+2021-09-15 22:52:11,691 INFO    SenderThread:3444 [sender.py:transition_state():319] send defer: 4
+2021-09-15 22:52:11,692 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: defer
+2021-09-15 22:52:11,692 INFO    HandlerThread:3444 [handler.py:handle_request_defer():143] handle defer: 4
+2021-09-15 22:52:11,692 DEBUG   SenderThread:3444 [sender.py:send_request():199] send_request: defer
+2021-09-15 22:52:11,692 INFO    SenderThread:3444 [sender.py:send_request_defer():315] handle sender defer: 4
+2021-09-15 22:52:11,692 INFO    SenderThread:3444 [sender.py:transition_state():319] send defer: 5
+2021-09-15 22:52:11,692 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: defer
+2021-09-15 22:52:11,692 INFO    HandlerThread:3444 [handler.py:handle_request_defer():143] handle defer: 5
+2021-09-15 22:52:11,692 DEBUG   SenderThread:3444 [sender.py:send_request():199] send_request: defer
+2021-09-15 22:52:11,692 INFO    SenderThread:3444 [sender.py:send_request_defer():315] handle sender defer: 5
+2021-09-15 22:52:11,692 INFO    SenderThread:3444 [sender.py:transition_state():319] send defer: 6
+2021-09-15 22:52:11,692 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: defer
+2021-09-15 22:52:11,692 INFO    HandlerThread:3444 [handler.py:handle_request_defer():143] handle defer: 6
+2021-09-15 22:52:11,693 DEBUG   SenderThread:3444 [sender.py:send_request():199] send_request: defer
+2021-09-15 22:52:11,693 INFO    SenderThread:3444 [sender.py:send_request_defer():315] handle sender defer: 6
+2021-09-15 22:52:11,693 INFO    SenderThread:3444 [sender.py:transition_state():319] send defer: 7
+2021-09-15 22:52:11,693 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: defer
+2021-09-15 22:52:11,693 INFO    HandlerThread:3444 [handler.py:handle_request_defer():143] handle defer: 7
+2021-09-15 22:52:11,693 DEBUG   SenderThread:3444 [sender.py:send_request():199] send_request: defer
+2021-09-15 22:52:11,693 INFO    SenderThread:3444 [sender.py:send_request_defer():315] handle sender defer: 7
+2021-09-15 22:52:11,693 INFO    SenderThread:3444 [sender.py:transition_state():319] send defer: 8
+2021-09-15 22:52:11,693 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: defer
+2021-09-15 22:52:11,693 INFO    HandlerThread:3444 [handler.py:handle_request_defer():143] handle defer: 8
+2021-09-15 22:52:11,693 DEBUG   SenderThread:3444 [sender.py:send_request():199] send_request: defer
+2021-09-15 22:52:11,693 INFO    SenderThread:3444 [sender.py:send_request_defer():315] handle sender defer: 8
+2021-09-15 22:52:11,693 INFO    SenderThread:3444 [sender.py:transition_state():319] send defer: 9
+2021-09-15 22:52:11,694 DEBUG   SenderThread:3444 [sender.py:send():185] send: final
+2021-09-15 22:52:11,694 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: defer
+2021-09-15 22:52:11,694 INFO    HandlerThread:3444 [handler.py:handle_request_defer():143] handle defer: 9
+2021-09-15 22:52:11,694 DEBUG   SenderThread:3444 [sender.py:send_request():199] send_request: defer
+2021-09-15 22:52:11,694 INFO    SenderThread:3444 [sender.py:send_request_defer():315] handle sender defer: 9
+2021-09-15 22:52:11,767 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-15 22:52:11,767 DEBUG   SenderThread:3444 [sender.py:send_request():199] send_request: poll_exit
+2021-09-15 22:52:12,157 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: get_summary
+2021-09-15 22:52:12,158 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: sampled_history
+2021-09-15 22:52:12,158 DEBUG   HandlerThread:3444 [handler.py:handle_request():126] handle_request: shutdown
+2021-09-15 22:52:12,158 INFO    HandlerThread:3444 [handler.py:finish():683] shutting down handler
+2021-09-15 22:52:12,694 INFO    WriterThread:3444 [datastore.py:close():281] close: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/offline-run-20210915_225008-elr3t5rg/run-elr3t5rg.wandb
+2021-09-15 22:52:13,157 INFO    SenderThread:3444 [sender.py:finish():985] shutting down sender
+2021-09-15 22:52:13,157 INFO    MainThread:3444 [internal.py:handle_exit():76] Internal process exited

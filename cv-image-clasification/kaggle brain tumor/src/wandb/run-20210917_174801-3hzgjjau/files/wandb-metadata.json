@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.11.0-34-generic-x86_64-with-glibc2.31",
+    "python": "3.9.6",
+    "heartbeatAt": "2021-09-17T15:48:01.806230",
+    "startedAt": "2021-09-17T15:48:01.051974",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/home/denis/.local/share/jupyter/runtime/kernel-177f2f66-2d1b-4cc9-b47f-c6ba6864edfa.json"
+    ],
+    "state": "running",
+    "program": "1_model_pytorch_transferlearn-aeed52cb-0b61-4c45-9527-bdab1959d4c2.ipynb",
+    "root": "/home/denis/AI/python/configuraciones",
+    "host": "linux",
+    "username": "denis",
+    "executable": "/home/denis/miniconda3/envs/deepsing/bin/python"
+}

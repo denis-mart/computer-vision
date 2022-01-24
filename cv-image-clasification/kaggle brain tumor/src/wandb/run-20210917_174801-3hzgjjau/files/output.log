@@ -1,0 +1,140 @@
+
+Using GPU: NVIDIA GeForce RTX 3060
+Using GPU: NVIDIA GeForce RTX 3060
+Using GPU: NVIDIA GeForce RTX 3060
+Using GPU: NVIDIA GeForce RTX 3060
+Using GPU: NVIDIA GeForce RTX 3060
+Size of Training Set: 524, Validation Set: 59
+Using GPU: NVIDIA GeForce RTX 3060
+Size of Training Set: 524, Validation Set: 59
+Using Backbone: resnext50_32x4d
+Using GPU: NVIDIA GeForce RTX 3060
+Size of Training Set: 524, Validation Set: 59
+Using Backbone: resnext50_32x4d
+Using GPU: NVIDIA GeForce RTX 3060
+Size of Training Set: 524, Validation Set: 59
+Using Backbone: resnext50_32x4d
+HOOOOOLAAAA
+Using GPU: NVIDIA GeForce RTX 3060
+Size of Training Set: 524, Validation Set: 59
+Using Backbone: resnext50_32x4d
+HOOOOOLAAAA {row}
+Using GPU: NVIDIA GeForce RTX 3060
+Size of Training Set: 524, Validation Set: 59
+Using Backbone: resnext50_32x4d
+HOOOOOLAAAA
+BraTS21ID                                                   691
+MGMT_value                                                    1
+path          /home/denis/AI/python/clasificador de imagen/k...
+Name: 1, dtype: object
+Using GPU: NVIDIA GeForce RTX 3060
+Size of Training Set: 524, Validation Set: 59
+Using Backbone: resnext50_32x4d
+BraTS21ID                                                   818
+MGMT_value                                                    0
+path          /home/denis/AI/python/clasificador de imagen/k...
+Name: 1, dtype: object
+Using GPU: NVIDIA GeForce RTX 3060
+Size of Training Set: 524, Validation Set: 59
+Using Backbone: resnext50_32x4d
+[]
+Using GPU: NVIDIA GeForce RTX 3060
+Size of Training Set: 524, Validation Set: 59
+Using Backbone: resnext50_32x4d
+[]
+Using GPU: NVIDIA GeForce RTX 3060
+Size of Training Set: 524, Validation Set: 59
+Using Backbone: resnext50_32x4d
+/home/denis/AI/python/clasificador de imagen/kaggle brain tumor/data/rsna-miccai-png/train/00032/FLAIR/*.png
+/home/denis/AI/python/clasificador de imagen/kaggle brain tumor/data/rsna-miccai-png/train/00243/FLAIR/*.png
+Using GPU: NVIDIA GeForce RTX 3060
+Size of Training Set: 524, Validation Set: 59
+Using Backbone: resnext50_32x4d
+/home/denis/AI/python/clasificador de imagen/kaggle brain tumor/data/rsna-miccai-brain-tumor-radiogenomic-classification/train/00733/FLAIR/*.png
+Using GPU: NVIDIA GeForce RTX 3060
+Size of Training Set: 524, Validation Set: 59
+Using Backbone: resnext50_32x4d
+/home/denis/AI/python/clasificador de imagen/kaggle brain tumor/data/rsna-miccai-brain-tumor-radiogenomic-classification/train/00030/FLAIR/*.dcm
+Using GPU: NVIDIA GeForce RTX 3060
+Size of Training Set: 524, Validation Set: 59
+Using Backbone: resnext50_32x4d
+/home/denis/AI/python/clasificador de imagen/kaggle brain tumor/data/rsna-miccai-brain-tumor-radiogenomic-classification/train/00228/FLAIR/Image-1.dcm
+Using GPU: NVIDIA GeForce RTX 3060
+Size of Training Set: 524, Validation Set: 59
+Using Backbone: resnext50_32x4d
+/home/denis/AI/python/clasificador de imagen/kaggle brain tumor/data/rsna-miccai-brain-tumor-radiogenomic-classification/train/00626/FLAIR/Image-1.dcm
+Using GPU: NVIDIA GeForce RTX 3060
+Size of Training Set: 524, Validation Set: 59
+Using Backbone: resnext50_32x4d
+None
+Using GPU: NVIDIA GeForce RTX 3060
+Size of Training Set: 524, Validation Set: 59
+Using Backbone: resnext50_32x4d
+/home/denis/AI/python/clasificador de imagen/kaggle brain tumor/data/rsna-miccai-brain-tumor-radiogenomic-classification/train/00806/FLAIR/Image-1.dcm
+None
+None
+None
+Dataset.file_meta -------------------------------
+(0002, 0010) Transfer Syntax UID                 UI: Implicit VR Little Endian
+-------------------------------------------------
+(0008, 0005) Specific Character Set              CS: 'ISO_IR 100'
+(0008, 0008) Image Type                          CS: ['DERIVED', 'SECONDARY']
+(0008, 0016) SOP Class UID                       UI: MR Image Storage
+(0008, 0018) SOP Instance UID                    UI: 1.2.826.0.1.3680043.8.498.12729785976459832372897281422047921131
+(0008, 0050) Accession Number                    SH: '00806'
+(0008, 0060) Modality                            CS: 'MR'
+(0008, 103e) Series Description                  LO: 'FLAIR'
+(0010, 0010) Patient's Name                      PN: '00806'
+(0010, 0020) Patient ID                          LO: '00806'
+(0018, 0023) MR Acquisition Type                 CS: '2D'
+(0018, 0050) Slice Thickness                     DS: '5.0'
+(0018, 0081) Echo Time                           DS: None
+(0018, 0082) Inversion Time                      DS: None
+(0018, 0083) Number of Averages                  DS: '1.0'
+(0018, 0084) Imaging Frequency                   DS: '63.878976'
+(0018, 0085) Imaged Nucleus                      SH: '1H'
+(0018, 0086) Echo Number(s)                      IS: '1'
+(0018, 0087) Magnetic Field Strength             DS: '1.5'
+(0018, 0088) Spacing Between Slices              DS: '1.0'
+(0018, 0089) Number of Phase Encoding Steps      IS: '191'
+(0018, 0091) Echo Train Length                   IS: '27'
+(0018, 0093) Percent Sampling                    DS: '80.1932373046875'
+(0018, 0094) Percent Phase Field of View         DS: '85.0'
+(0018, 0095) Pixel Bandwidth                     DS: '206.0'
+(0018, 1081) Low R-R Value                       IS: '0'
+(0018, 1082) High R-R Value                      IS: '0'
+(0018, 1100) Reconstruction Diameter             DS: '210.0'
+(0018, 1310) Acquisition Matrix                  US: [0, 244, 191, 0]
+(0018, 1312) In-plane Phase Encoding Direction   CS: 'ROW'
+(0018, 1314) Flip Angle                          DS: '90.0'
+(0018, 1316) SAR                                 DS: '0.08613316714763'
+(0018, 1318) dB/dt                               DS: '46.7362213134765'
+(0018, 1320) B1rms                               FL: None
+(0018, 5100) Patient Position                    CS: 'HFS'
+(0018, 9087) Diffusion b-value                   FD: 0.0
+(0018, 9089) Diffusion Gradient Orientation      FD: [0.0, 0.0, 0.0]
+(0020, 000d) Study Instance UID                  UI: 1.2.826.0.1.3680043.8.498.49431018415775207986115626659949149387
+(0020, 000e) Series Instance UID                 UI: 1.2.826.0.1.3680043.8.498.12535149477880305239074072852355183512
+(0020, 0011) Series Number                       IS: '701'
+(0020, 0013) Instance Number                     IS: '1'
+(0020, 0032) Image Position (Patient)            DS: [-124.11092639598, -127.33717905636, -36.767018831567]
+(0020, 0037) Image Orientation (Patient)         DS: [0.98558640480041, -0.1275403797626, -0.1111436858773, 0.09932365268468, 0.96807885169982, -0.2301264852285]
+(0020, 0060) Laterality                          CS: ''
+(0020, 1040) Position Reference Indicator        LO: ''
+(0020, 1041) Slice Location                      DS: '80.0182128944523'
+(0028, 0002) Samples per Pixel                   US: 1
+(0028, 0004) Photometric Interpretation          CS: 'MONOCHROME2'
+(0028, 0010) Rows                                US: 480
+(0028, 0011) Columns                             US: 480
+(0028, 0030) Pixel Spacing                       DS: [0.4375, 0.4375]
+(0028, 0100) Bits Allocated                      US: 16
+(0028, 0101) Bits Stored                         US: 16
+(0028, 0102) High Bit                            US: 15
+(0028, 0103) Pixel Representation                US: 0
+(0028, 1050) Window Center                       DS: '304.39'
+(0028, 1051) Window Width                        DS: '529.12'
+(0028, 1052) Rescale Intercept                   DS: '0.0'
+(0028, 1053) Rescale Slope                       DS: '1.0'
+(0028, 1054) Rescale Type                        LO: 'US'
+(7fe0, 0010) Pixel Data                          OW: Array of 460800 elements
+<class 'pydicom.dataset.FileDataset'>

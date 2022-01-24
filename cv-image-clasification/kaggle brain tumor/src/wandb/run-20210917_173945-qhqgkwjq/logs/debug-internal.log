@@ -1,0 +1,376 @@
+2021-09-17 17:39:49,977 INFO    MainThread:9484 [internal.py:wandb_internal():86] W&B internal server running at pid: 9484, started at: 2021-09-17 17:39:49.977720
+2021-09-17 17:39:49,979 INFO    WriterThread:9484 [datastore.py:open_for_write():77] open: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/run-qhqgkwjq.wandb
+2021-09-17 17:39:49,979 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: check_version
+2021-09-17 17:39:49,980 DEBUG   SenderThread:9484 [sender.py:send():185] send: header
+2021-09-17 17:39:49,980 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: check_version
+2021-09-17 17:39:50,052 DEBUG   SenderThread:9484 [sender.py:send():185] send: run
+2021-09-17 17:39:50,273 INFO    SenderThread:9484 [dir_watcher.py:__init__():169] watching files in: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files
+2021-09-17 17:39:50,273 INFO    SenderThread:9484 [sender.py:_start_run_threads():746] run started: qhqgkwjq with start time 1631893189
+2021-09-17 17:39:50,273 DEBUG   SenderThread:9484 [sender.py:send():185] send: summary
+2021-09-17 17:39:50,274 INFO    SenderThread:9484 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-09-17 17:39:50,275 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: run_start
+2021-09-17 17:39:50,277 DEBUG   HandlerThread:9484 [meta.py:__init__():40] meta init
+2021-09-17 17:39:50,277 DEBUG   HandlerThread:9484 [meta.py:__init__():54] meta init done
+2021-09-17 17:39:50,278 DEBUG   HandlerThread:9484 [meta.py:probe():211] probe
+2021-09-17 17:39:50,283 DEBUG   HandlerThread:9484 [meta.py:_save_pip():58] save pip
+2021-09-17 17:39:50,283 DEBUG   HandlerThread:9484 [meta.py:_save_pip():72] save pip done
+2021-09-17 17:39:50,283 DEBUG   HandlerThread:9484 [meta.py:_save_conda():79] save conda
+2021-09-17 17:39:51,276 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_created():217] file/dir created: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/requirements.txt
+2021-09-17 17:39:51,276 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_created():217] file/dir created: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/wandb-summary.json
+2021-09-17 17:39:51,276 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_created():217] file/dir created: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/conda-environment.yaml
+2021-09-17 17:39:52,273 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/conda-environment.yaml
+2021-09-17 17:39:52,360 DEBUG   HandlerThread:9484 [meta.py:_save_conda():87] save conda done
+2021-09-17 17:39:52,360 DEBUG   HandlerThread:9484 [meta.py:probe():249] probe done
+2021-09-17 17:39:52,362 DEBUG   SenderThread:9484 [sender.py:send():185] send: files
+2021-09-17 17:39:52,362 INFO    SenderThread:9484 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2021-09-17 17:39:52,368 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:39:52,368 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:39:52,369 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:39:52,369 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:39:52,555 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:39:52,990 INFO    Thread-11 :9484 [upload_job.py:push():137] Uploaded file /tmp/tmpax9igjv9wandb/3fo5jbo9-wandb-metadata.json
+2021-09-17 17:39:53,274 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_created():217] file/dir created: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:39:53,275 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_created():217] file/dir created: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/wandb-metadata.json
+2021-09-17 17:40:03,279 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:40:07,557 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:40:07,557 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:40:13,565 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:40:13,565 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:40:13,566 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:40:13,566 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:40:13,592 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:40:14,919 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:40:14,919 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:40:14,920 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:40:14,920 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:40:14,942 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:40:15,804 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:40:15,804 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:40:15,805 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:40:15,805 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:40:15,831 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:40:16,871 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:40:16,871 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:40:16,871 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:40:16,872 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:40:16,898 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:40:18,620 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:40:18,620 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:40:18,633 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:40:18,633 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:40:18,652 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:40:22,760 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:40:22,761 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:40:33,291 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:40:37,950 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:40:37,951 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:40:44,991 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:40:44,991 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:40:45,013 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:40:45,013 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:40:45,118 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:40:53,136 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:40:53,136 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:40:54,427 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:40:54,427 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:40:54,452 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:40:54,453 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:40:54,556 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:40:58,771 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:40:58,771 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:40:58,785 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:40:58,785 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:40:58,809 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:41:03,304 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:41:04,249 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:41:04,250 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:41:04,265 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:41:04,265 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:41:04,282 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:41:05,304 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:41:08,318 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:41:08,318 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:41:23,505 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:41:23,506 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:41:35,316 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:41:37,413 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:41:37,413 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:41:37,413 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:41:37,413 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:41:37,435 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:41:38,688 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:41:38,689 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:41:42,701 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:41:42,701 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:41:42,702 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:41:42,702 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:41:42,727 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:41:50,222 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:41:50,222 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:41:50,246 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:41:50,246 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:41:50,349 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:41:53,893 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:41:53,894 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:42:05,328 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:42:05,714 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:42:05,714 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:42:05,715 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:42:05,715 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:42:05,739 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:42:08,303 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:42:08,303 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:42:08,304 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:42:08,304 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:42:08,328 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:42:09,086 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:42:09,086 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:42:11,255 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:42:11,255 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:42:11,256 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:42:11,256 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:42:11,280 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:42:14,494 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:42:14,494 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:42:14,494 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:42:14,494 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:42:14,518 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:42:15,634 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:42:15,634 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:42:15,634 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:42:15,634 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:42:15,657 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:42:17,484 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:42:17,485 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:42:17,485 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:42:17,485 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:42:17,508 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:42:19,640 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:42:19,640 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:42:19,640 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:42:19,640 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:42:19,666 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:42:21,500 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:42:21,500 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:42:21,518 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:42:21,518 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:42:21,631 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:42:24,274 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:42:24,275 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:42:35,339 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:42:39,465 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:42:39,465 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:42:54,671 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:42:54,671 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:43:05,351 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:43:05,365 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:43:05,365 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:43:05,366 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:43:05,366 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:43:05,393 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:43:06,296 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:43:06,297 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:43:06,297 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:43:06,297 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:43:06,328 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:43:08,220 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:43:08,220 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:43:08,220 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:43:08,220 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:43:08,242 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:43:09,867 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:43:09,867 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:43:10,956 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:43:10,956 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:43:10,957 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:43:10,957 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:43:10,982 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:43:11,480 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:43:11,480 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:43:11,481 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:43:11,481 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:43:11,503 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:43:11,790 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:43:11,790 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:43:11,791 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:43:11,791 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:43:11,812 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:43:12,394 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:43:12,395 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:43:12,395 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:43:12,395 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:43:12,417 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:43:15,606 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:43:15,606 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:43:15,624 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:43:15,624 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:43:15,728 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:43:25,094 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:43:25,094 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:43:35,363 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:43:40,281 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:43:40,282 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:43:55,476 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:43:55,476 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:44:05,380 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:44:10,672 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:44:10,673 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:44:25,868 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:44:25,868 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:44:35,394 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:44:41,065 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:44:41,065 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:44:56,289 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:44:56,290 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:45:05,410 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:45:11,488 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:45:11,490 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:45:26,681 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:45:26,682 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:45:37,423 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:45:40,899 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:45:40,899 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:45:40,900 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:45:40,901 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:45:40,929 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:45:41,874 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:45:41,875 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:45:46,255 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:45:46,255 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:45:46,883 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:45:46,883 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:45:46,979 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:45:47,427 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:45:49,428 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:45:49,684 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 17:45:49,684 INFO    HandlerThread:9484 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 17:45:49,691 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 17:45:49,691 INFO    HandlerThread:9484 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 17:45:49,705 DEBUG   SenderThread:9484 [sender.py:send():185] send: stats
+2021-09-17 17:45:57,063 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:45:57,064 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:46:07,437 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:46:12,248 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:46:12,248 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:46:27,439 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:46:27,439 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:46:37,453 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:46:42,631 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:46:42,632 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:46:57,826 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:46:57,826 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:47:07,469 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:47:13,024 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:47:13,024 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:47:28,204 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 17:47:28,204 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: stop_status
+2021-09-17 17:47:37,483 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:47:38,998 WARNING MainThread:9484 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-09-17 17:47:39,445 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 17:47:39,446 DEBUG   SenderThread:9484 [sender.py:send():185] send: telemetry
+2021-09-17 17:47:39,446 DEBUG   SenderThread:9484 [sender.py:send():185] send: exit
+2021-09-17 17:47:39,446 INFO    SenderThread:9484 [sender.py:send_exit():294] handling exit code: 0
+2021-09-17 17:47:39,446 INFO    SenderThread:9484 [sender.py:send_exit():296] handling runtime: 4
+2021-09-17 17:47:39,446 INFO    SenderThread:9484 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-09-17 17:47:39,446 INFO    SenderThread:9484 [sender.py:send_exit():306] send defer
+2021-09-17 17:47:39,447 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: poll_exit
+2021-09-17 17:47:39,447 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 17:47:39,447 INFO    HandlerThread:9484 [handler.py:handle_request_defer():143] handle defer: 0
+2021-09-17 17:47:39,452 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: defer
+2021-09-17 17:47:39,452 INFO    SenderThread:9484 [sender.py:send_request_defer():315] handle sender defer: 0
+2021-09-17 17:47:39,452 INFO    SenderThread:9484 [sender.py:transition_state():319] send defer: 1
+2021-09-17 17:47:39,453 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 17:47:39,453 INFO    HandlerThread:9484 [handler.py:handle_request_defer():143] handle defer: 1
+2021-09-17 17:47:39,453 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: defer
+2021-09-17 17:47:39,453 INFO    SenderThread:9484 [sender.py:send_request_defer():315] handle sender defer: 1
+2021-09-17 17:47:39,453 INFO    SenderThread:9484 [sender.py:transition_state():319] send defer: 2
+2021-09-17 17:47:39,453 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 17:47:39,453 INFO    HandlerThread:9484 [handler.py:handle_request_defer():143] handle defer: 2
+2021-09-17 17:47:39,453 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: defer
+2021-09-17 17:47:39,453 INFO    SenderThread:9484 [sender.py:send_request_defer():315] handle sender defer: 2
+2021-09-17 17:47:39,453 INFO    SenderThread:9484 [sender.py:transition_state():319] send defer: 3
+2021-09-17 17:47:39,454 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 17:47:39,454 INFO    HandlerThread:9484 [handler.py:handle_request_defer():143] handle defer: 3
+2021-09-17 17:47:39,454 DEBUG   SenderThread:9484 [sender.py:send():185] send: summary
+2021-09-17 17:47:39,454 INFO    SenderThread:9484 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-09-17 17:47:39,454 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: defer
+2021-09-17 17:47:39,454 INFO    SenderThread:9484 [sender.py:send_request_defer():315] handle sender defer: 3
+2021-09-17 17:47:39,454 INFO    SenderThread:9484 [sender.py:transition_state():319] send defer: 4
+2021-09-17 17:47:39,455 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 17:47:39,455 INFO    HandlerThread:9484 [handler.py:handle_request_defer():143] handle defer: 4
+2021-09-17 17:47:39,455 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: defer
+2021-09-17 17:47:39,455 INFO    SenderThread:9484 [sender.py:send_request_defer():315] handle sender defer: 4
+2021-09-17 17:47:39,484 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:47:39,484 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/wandb-summary.json
+2021-09-17 17:47:39,552 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 17:47:39,669 INFO    SenderThread:9484 [sender.py:transition_state():319] send defer: 5
+2021-09-17 17:47:39,669 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: poll_exit
+2021-09-17 17:47:39,670 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 17:47:39,670 INFO    HandlerThread:9484 [handler.py:handle_request_defer():143] handle defer: 5
+2021-09-17 17:47:39,670 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: defer
+2021-09-17 17:47:39,670 INFO    SenderThread:9484 [sender.py:send_request_defer():315] handle sender defer: 5
+2021-09-17 17:47:39,670 INFO    SenderThread:9484 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-09-17 17:47:39,771 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 17:47:40,484 INFO    Thread-8  :9484 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/config.yaml
+2021-09-17 17:47:40,485 INFO    SenderThread:9484 [dir_watcher.py:finish():313] scan: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files
+2021-09-17 17:47:40,485 INFO    SenderThread:9484 [dir_watcher.py:finish():327] scan save: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/wandb-summary.json wandb-summary.json
+2021-09-17 17:47:40,485 INFO    SenderThread:9484 [dir_watcher.py:finish():327] scan save: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log output.log
+2021-09-17 17:47:40,489 INFO    SenderThread:9484 [dir_watcher.py:finish():327] scan save: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/wandb-metadata.json wandb-metadata.json
+2021-09-17 17:47:40,490 INFO    SenderThread:9484 [dir_watcher.py:finish():327] scan save: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/requirements.txt requirements.txt
+2021-09-17 17:47:40,495 INFO    SenderThread:9484 [dir_watcher.py:finish():327] scan save: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/conda-environment.yaml conda-environment.yaml
+2021-09-17 17:47:40,498 INFO    SenderThread:9484 [dir_watcher.py:finish():327] scan save: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/config.yaml config.yaml
+2021-09-17 17:47:40,501 INFO    SenderThread:9484 [sender.py:transition_state():319] send defer: 6
+2021-09-17 17:47:40,502 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: poll_exit
+2021-09-17 17:47:40,502 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 17:47:40,505 INFO    HandlerThread:9484 [handler.py:handle_request_defer():143] handle defer: 6
+2021-09-17 17:47:40,505 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: defer
+2021-09-17 17:47:40,506 INFO    SenderThread:9484 [sender.py:send_request_defer():315] handle sender defer: 6
+2021-09-17 17:47:40,506 INFO    SenderThread:9484 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-17 17:47:40,604 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 17:47:40,604 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: poll_exit
+2021-09-17 17:47:40,706 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 17:47:40,708 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: poll_exit
+2021-09-17 17:47:40,816 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 17:47:40,816 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: poll_exit
+2021-09-17 17:47:40,920 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 17:47:40,920 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: poll_exit
+2021-09-17 17:47:41,021 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 17:47:41,021 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: poll_exit
+2021-09-17 17:47:41,092 INFO    Thread-43 :9484 [upload_job.py:push():137] Uploaded file /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/wandb-summary.json
+2021-09-17 17:47:41,122 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 17:47:41,123 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: poll_exit
+2021-09-17 17:47:41,140 INFO    Thread-47 :9484 [upload_job.py:push():137] Uploaded file /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/config.yaml
+2021-09-17 17:47:41,153 INFO    Thread-44 :9484 [upload_job.py:push():137] Uploaded file /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/output.log
+2021-09-17 17:47:41,170 INFO    Thread-46 :9484 [upload_job.py:push():137] Uploaded file /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/conda-environment.yaml
+2021-09-17 17:47:41,187 INFO    Thread-45 :9484 [upload_job.py:push():137] Uploaded file /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/files/requirements.txt
+2021-09-17 17:47:41,224 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 17:47:41,224 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: poll_exit
+2021-09-17 17:47:41,325 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 17:47:41,325 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: poll_exit
+2021-09-17 17:47:41,388 INFO    Thread-7  :9484 [sender.py:transition_state():319] send defer: 7
+2021-09-17 17:47:41,388 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 17:47:41,388 INFO    HandlerThread:9484 [handler.py:handle_request_defer():143] handle defer: 7
+2021-09-17 17:47:41,388 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: defer
+2021-09-17 17:47:41,388 INFO    SenderThread:9484 [sender.py:send_request_defer():315] handle sender defer: 7
+2021-09-17 17:47:41,427 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 17:47:41,706 INFO    SenderThread:9484 [sender.py:transition_state():319] send defer: 8
+2021-09-17 17:47:41,706 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: poll_exit
+2021-09-17 17:47:41,707 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 17:47:41,708 INFO    HandlerThread:9484 [handler.py:handle_request_defer():143] handle defer: 8
+2021-09-17 17:47:41,708 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: defer
+2021-09-17 17:47:41,709 INFO    SenderThread:9484 [sender.py:send_request_defer():315] handle sender defer: 8
+2021-09-17 17:47:41,709 INFO    SenderThread:9484 [sender.py:transition_state():319] send defer: 9
+2021-09-17 17:47:41,711 DEBUG   HandlerThread:9484 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 17:47:41,711 INFO    HandlerThread:9484 [handler.py:handle_request_defer():143] handle defer: 9
+2021-09-17 17:47:41,711 DEBUG   SenderThread:9484 [sender.py:send():185] send: final
+2021-09-17 17:47:41,711 DEBUG   SenderThread:9484 [sender.py:send():185] send: footer
+2021-09-17 17:47:41,711 DEBUG   SenderThread:9484 [sender.py:send_request():199] send_request: defer
+2021-09-17 17:47:41,711 INFO    SenderThread:9484 [sender.py:send_request_defer():315] handle sender defer: 9
+2021-09-17 17:47:44,004 WARNING MainThread:9484 [internal.py:is_dead():364] Internal process exiting, parent pid 5026 disappeared
+2021-09-17 17:47:44,004 ERROR   MainThread:9484 [internal.py:wandb_internal():141] Internal process shutdown.
+2021-09-17 17:47:44,712 INFO    SenderThread:9484 [sender.py:finish():985] shutting down sender
+2021-09-17 17:47:44,712 INFO    WriterThread:9484 [datastore.py:close():281] close: /home/denis/AI/python/clasificador de imagen/kaggle brain tumor/src/wandb/run-20210917_173945-qhqgkwjq/run-qhqgkwjq.wandb
+2021-09-17 17:47:44,713 INFO    SenderThread:9484 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-17 17:47:44,713 INFO    SenderThread:9484 [file_pusher.py:join():182] waiting for file pusher
+2021-09-17 17:47:44,715 INFO    HandlerThread:9484 [handler.py:finish():683] shutting down handler
+2021-09-17 17:47:44,716 INFO    MainThread:9484 [internal.py:handle_exit():76] Internal process exited
