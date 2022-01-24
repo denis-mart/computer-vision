@@ -17,12 +17,3 @@ Summary of some of my personal work
 - Best model: MLP based on Backbone (EfficientNet b2 + MLP Metadata)
     * Kaggle test set RMSE: ~ 19. (best rank: p50 of the leaderboard)
 
-## 2. Time Series Prediction
-
-### Time Serie "1"
-
-- **Machine Learning**
-- Regression
-- Goal: forecast future values of time series
-- Experiments:
-- Best model:
